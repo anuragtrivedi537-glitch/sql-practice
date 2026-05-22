@@ -3,20 +3,25 @@
 This repository contains my SQL learning and practice work.
 
 ## Topics Covered
-- SELECT statements
-- WHERE clause
+- SELECT
+- WHERE
 - ORDER BY
 - INNER JOIN
 - LEFT JOIN
 - GROUP BY
-- COUNT()
+- HAVING
+- SUM()
+- AVG()
+- MIN()
+- MAX()
 
-## Files
-- joins-practice.sql
+## Sample Query
 
-## Tools Used
-- SQLBolt
-- GitHub
+```sql
+SELECT dept_id, COUNT(*) AS total_employees
+FROM employees
+GROUP BY dept_id;
+```
 
 ## Goal
-To become proficient in SQL for finance and data analyst roles.
+To become proficient in SQL for finance and data analyst roles.****
